@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-02T12:29:11 IST" name="ToolsQA application testing" finished-at="2020-10-02T12:31:13 IST" duration-ms="121575">
+    <groups>
+    </groups>
+    <test started-at="2020-10-02T12:29:11 IST" name="Verify links First Time execution" finished-at="2020-10-02T12:30:13 IST" duration-ms="61744">
+      <class name="Academytoolsqa.ScreenshotCompare">
+        <test-method signature="imageCompare()[pri:0, instance:Academytoolsqa.ScreenshotCompare@4c51cf28]" started-at="2020-10-02T12:30:12 IST" name="imageCompare" finished-at="2020-10-02T12:30:12 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageCompare -->
+      </class> <!-- Academytoolsqa.ScreenshotCompare -->
+      <class name="Academytoolsqa.HomePage2">
+        <test-method is-config="true" signature="initiateall()[pri:0, instance:Academytoolsqa.HomePage2@403f0a22]" started-at="2020-10-02T12:29:11 IST" name="initiateall" finished-at="2020-10-02T12:29:39 IST" duration-ms="27799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateall -->
+        <test-method signature="clickingLinksFirstrun()[pri:0, instance:Academytoolsqa.HomePage2@403f0a22]" started-at="2020-10-02T12:29:39 IST" name="clickingLinksFirstrun" description="Firsttimerun_code" finished-at="2020-10-02T12:30:12 IST" duration-ms="32420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingLinksFirstrun -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Academytoolsqa.HomePage2@403f0a22]" started-at="2020-10-02T12:30:12 IST" name="exit" finished-at="2020-10-02T12:30:13 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- Academytoolsqa.HomePage2 -->
+    </test> <!-- Verify links First Time execution -->
+    <test started-at="2020-10-02T12:30:13 IST" name="Verify links Second Time execution" finished-at="2020-10-02T12:31:13 IST" duration-ms="59265">
+      <class name="Academytoolsqa.HomePage2">
+        <test-method is-config="true" signature="initiateall()[pri:0, instance:Academytoolsqa.HomePage2@33fe57a9]" started-at="2020-10-02T12:30:13 IST" name="initiateall" finished-at="2020-10-02T12:30:40 IST" duration-ms="26796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateall -->
+        <test-method signature="clickingLinksSecondrun()[pri:0, instance:Academytoolsqa.HomePage2@33fe57a9]" started-at="2020-10-02T12:30:40 IST" name="clickingLinksSecondrun" description="Secondtimerun_code" finished-at="2020-10-02T12:31:12 IST" duration-ms="31661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickingLinksSecondrun -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:Academytoolsqa.HomePage2@33fe57a9]" started-at="2020-10-02T12:31:12 IST" name="exit" finished-at="2020-10-02T12:31:13 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- Academytoolsqa.HomePage2 -->
+    </test> <!-- Verify links Second Time execution -->
+  </suite> <!-- ToolsQA application testing -->
+</testng-results>
